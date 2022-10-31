@@ -55,7 +55,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #57b846;
+  color: #009db9;
 }
 
 /*---------------------------------------------*/
@@ -202,14 +202,14 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #659999, #f4791f);
-  background: -o-linear-gradient(-135deg, #659999, #f4791f);
-  background: -moz-linear-gradient(-135deg, #659999, #f4791f);
-  background: linear-gradient(-135deg, #659999, #f4791f);
+  background: -webkit-linear-gradient(-135deg, #0587a1, #042b32);
+  background: -o-linear-gradient(-135deg, #0587a1, #042b32);
+  background: -moz-linear-gradient(-135deg, #0587a1, #042b32);
+  background: linear-gradient(-135deg, #0587a1, #042b32);
 }
 
 .wrap-login100 {
-  width: 960px;
+  width: 1300px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -225,8 +225,10 @@ iframe {
 }
 
 .wrap-title {
-  width: 100%;
-  background: #fff;
+  width: 120%;
+  background: rgb(218, 218, 218);
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
 /*------------------------------------------------------------------
@@ -315,7 +317,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87, 184, 70, 0.8);
+  color: rgba(70, 135, 184, 0.8);
 }
 
 .input100:focus + .focus-input100 {
@@ -363,7 +365,7 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #57b846;
+  color: #4668b8;
   padding-left: 28px;
 }
 
@@ -391,7 +393,7 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #57b846;
+  background: #144790;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
